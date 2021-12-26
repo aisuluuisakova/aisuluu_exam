@@ -1,0 +1,12 @@
+.projects-block{
+    background-color: lightblue;width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: 35px;
+    color: white;
+}
+.objects{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
