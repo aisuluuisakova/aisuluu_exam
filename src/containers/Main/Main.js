@@ -1,7 +1,7 @@
 import React from 'react'
-import './Main.css'
 import Carousel1 from '../../components/Carousel/Carousel1'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Main.css'
 
 export default function Main() {
     return (

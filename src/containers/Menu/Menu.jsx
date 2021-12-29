@@ -11,7 +11,7 @@ import Menu1 from '../Menu/Menu1'
 class Navbar extends React.Component {
   render() {
     return (
-      <>
+      <div className="Menu">
       <nav className="NavbarItems">
         <ul className="nav-menu">
           {MenuItems.map((item, index) => {
@@ -24,12 +24,13 @@ class Navbar extends React.Component {
         </ul>
       </nav>
           <Routes>
+          <Route path="/" element ={<Menu1/>}/>
            <Route path="/src/containers/Menu" element ={<Menu1/>}/>
             <Route path="/src/containers/Main" element ={<Main/>}/>
             <Route path="/src/containers/Stack" element ={<Stack/>}/>
             <Route path="/src/containers/Projects" element ={<Projects/>}/>
           </Routes>
-      </>
+      </div>
     );
   }
 }

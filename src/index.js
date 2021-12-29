@@ -4,11 +4,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Menu from './containers/Menu/Menu'
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App/>} >
+      <Route path="/" element={<Menu/>} >
       <Route path="*" element={<div>NOT FOUND</div>  } />
       </Route>
     </Routes>

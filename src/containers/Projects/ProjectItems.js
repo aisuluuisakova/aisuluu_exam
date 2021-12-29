@@ -1,7 +1,11 @@
+// var img1;
+// var img2;
+// var img3;
+// var img4;
 export const ProjectItems = [
     {
         name: 'Zara',
-        image: './images/zara.JPG',
+        image:'./images/zara.JPG' ,
         description: 'Zara- a formal dress. 100% Cotton. Very breathable and compfortable',
         created_date: '12.11.10'
     },

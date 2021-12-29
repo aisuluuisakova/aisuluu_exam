@@ -11,22 +11,22 @@ export default class Carousel1 extends Component{
     return(
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-70 h-50"
+          <img className="d-block w-100 h-20"
           src={img1}
           alt="dress"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-70 h-50"
+          <img className="d-block w-100 h-50"
           src={img2}
           alt="dress"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-70 h-50"
+          <img className="d-block w-100 h-50"
           src={img3}
           alt="dress"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-70 h-50"
+          <img className="d-block w-100 h-50"
           src={img4}
           alt="dress"/>
         </Carousel.Item>
